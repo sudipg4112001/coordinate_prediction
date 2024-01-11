@@ -12,7 +12,9 @@ The project involves human face images, each featuring a single face. The target
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/sudipg4112001/coordinate_prediction.git
+    git clone https://github.com/sudipg4112001/coordinate_prediction
+    cd coordinate_prediction
+
     ```
 2. Install dependencies:
 
