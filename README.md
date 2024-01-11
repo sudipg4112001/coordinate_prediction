@@ -8,6 +8,7 @@ The project involves human face images, each featuring a single face. The target
 
 - [Python](https://www.python.org/downloads/)
 - [Git](https://git-scm.com/downloads)
+- [Docker](https://www.docker.com/)
 
 ### Run local machine
 1. Clone the repository:
