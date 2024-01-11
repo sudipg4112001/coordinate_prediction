@@ -1,4 +1,4 @@
-# Coordinate Prediction
+# Single Coordinate Prediction
 
 The project involves human face images, each featuring a single face. The target landmark for prediction is the lip, which is annotated with a single coordinate or dot. The prediction is accomplished through a deep learning algorithm.
 
