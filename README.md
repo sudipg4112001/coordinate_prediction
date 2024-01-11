@@ -3,6 +3,12 @@
 The project involves human face images, each featuring a single face. The target landmark for prediction is the lip, which is annotated with a single coordinate or dot. The prediction is accomplished through a deep learning algorithm.
 
 ## Getting Started
+### Approach and Challenges
+The work involved examining various architectures, including those built from scratch and pre-trained models. It was observed that the ConvNeXtXLarge architecture demonstrated superior performance compared to others.
+
+Moreover, a notable challenge encountered in this dataset was the presence of similar features to the target. Given that only a dot is being predicted, this presented a significant issue. To address this, the approach of scaling features involved employing an image-blurring technique before training.
+### Dataset Description
+The dataset, which comprises 150 human images, is stored in the `img` folder. Additionally, there is a CSV file named `labels.csv` containing annotations specifically targeting the lips of the human face.
 
 ### Prerequisites
 
